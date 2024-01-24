@@ -13,7 +13,7 @@ class ExplainerController extends Controller
 {
     public function __construct()
     {
-        $this->authorizeResource(TrainingBag::class, 'file');
+        // $this->authorizeResource(TrainingBag::class, 'file');
     }
 
     /**

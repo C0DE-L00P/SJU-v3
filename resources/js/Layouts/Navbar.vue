@@ -40,6 +40,9 @@
                     <li class="nav-item mx-2">
                         <Link :href="route('pages.training-bag')" class="nav-link">{{ __('Training bag') }}</Link>
                     </li>
+                    <li class="nav-item mx-2">
+                        <Link :href="route('pages.Explainers')" class="nav-link">{{ __('Candidates') }}</Link>
+                    </li>
                 </ul>
             </div>
         </div>

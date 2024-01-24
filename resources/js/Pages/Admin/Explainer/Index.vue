@@ -85,7 +85,7 @@ const copy = (text, msg) => {
                                     class="dt-button add-new btn btn-primary me-1">
                                 <span>
                                     <i class="ti ti-plus me-0 me-sm-1 ti-xs"></i>
-                                    <span class="d-none d-sm-inline-block">{{ __('Upload file') }}</span>
+                                    <span class="d-none d-sm-inline-block">{{ __('Create candidate') }}</span>
                                 </span>
                                 </Link>
                             </div>
@@ -114,7 +114,7 @@ const copy = (text, msg) => {
                                         data-bs-placement="top" :aria-label="__('Copy link')" :title="__('Copy link')">
                                         <i class="ti ti-copy mx-2 ti-sm"></i>
                                     </a>
-                                    <Link v-if="file.deleteable" :href="route('admin.explainer.destroy', file.id)"
+                                    <Link :href="route('admin.explainer.destroy', file.id)"
                                         method="DELETE" as="span" class="text-body" data-bs-placement="top"
                                         :aria-label="__('Delete')" :title="__('Delete')">
                                     <i class="ti ti-trash mx-2 ti-sm cursor-pointer"></i>

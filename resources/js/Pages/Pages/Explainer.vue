@@ -36,7 +36,7 @@ const props = defineProps({
                                             <Link :href="explainer.path" as="h5" style="height: 50px" class="card-title">{{
                                                 explainer.name }}</Link>
                                             <a :href="explainer.path" class="btn btn-success btn-sm mt-2 ripple-surface" target="_blank">
-                                                {{ __('View') }}
+                                                {{ __('CV') }}
                                             </a>
                                         </div>
                                     </div>
