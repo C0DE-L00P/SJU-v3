@@ -19,7 +19,7 @@ const props = defineProps({
                     </ul>
                 </nav>
 
-                <h3>{{ __('Explainers') }}</h3>
+                <h3>{{ __('Candidates heading') }}</h3>
             </div>
         </div>
 
